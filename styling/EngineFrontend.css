@@ -1,0 +1,86 @@
+Text {
+	-fx-font-family: "Helvetica";
+    -fx-font-size: 18;
+}
+VBox, HBox {
+	-fx-background-color: #77878B;
+	-fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+}
+.button {
+    -fx-alignment: center;
+	-fx-background-radius: 6;
+	-fx-background-color: #B7D5D4;	-fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+    -fx-text-alignment: center;
+    -fx-font: 12px Dekko;
+    -fx-font-weight: bold;
+    -fx-underline: false;
+}
+.button:hover{
+	-fx-font: bold 12pt "Helvetica";
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:disabled, .button:disabled > * {
+	-fx-opacity: 0.7;
+}
+
+.button:hover {
+}
+
+.combo-box {
+}
+
+.combo-box .cell {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18;
+}
+
+.text-field {
+}
+
+#screenTitle {
+  -fx-alignment: center;
+  -fx-font: bold 24pt "Helvetica";
+}
+
+
+@font-face {
+    src: url("vcr-sd-mono.ttf");
+}
+
+#currencyButton {
+	-fx-font-family: "VCR OSD Mono";
+    -fx-font-size: 30;
+    -fx-background-color: green;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    
+}
+#currencyButton{
+	
+}
+#currencyButton:disabled, #currencyButton:disabled > * {
+		-fx-opacity: 1.0;
+}
+
+#voidButton{
+
+}
+#voidButton:disabled, #voidButton:disabled > * {
+	-fx-opacity: 1.0;
+}
+
+#gamePanel{
+
+}
+
+#newGameButton{
+
+}
+

@@ -1,0 +1,101 @@
+/* @Author Alexi Kontos */
+
+/**************************** Font Face ****************************/
+
+@font-face {
+    src: url("african.ttf");
+}
+
+/**************************** Basic Objects ****************************/
+
+Text {
+    -fx-font: 14pt "Helvetica";
+}
+
+.root {
+    -fx-background-color: black;
+}
+VBox, HBox {
+    -fx-background-image: url("file:images/jungle.png");
+    -fx-background-size: cover;
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+    -fx-border-color: transparent;
+}
+
+.button {
+    -fx-font: 14pt "Arial";
+    -fx-background-image: url("file:images/wood.png");
+    -fx-background-size: cover;
+    -fx-border-width: 5;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: saddlebrown;
+}
+
+.button:hover{
+    -fx-font: bold 12pt "Helvetica";
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:disabled, .button:disabled > * {
+    -fx-opacity: 0.7;
+}
+
+.label {
+    -fx-font-family: "African";
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-text-fill: saddlebrown;
+}
+
+.scroll-pane{
+    -fx-background-image: url("file:images/jungle.png");
+}
+.scroll-bar:vertical .track-background,
+.scroll-bar:horizontal .track-background {
+	-fx-background-color: saddlebrown;
+	
+}
+
+/**************************** Specific Stylings ****************************/
+
+#currencyButton {
+    -fx-font-family: "African";
+    -fx-font-size: 30;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-text-fill: saddlebrown;
+
+}
+#currencyButton{
+
+}
+#currencyButton:disabled, #currencyButton:disabled > * {
+    -fx-opacity: 1.0;
+}
+
+#swapWrap {
+
+}
+
+#voidButton{
+
+}
+#voidButton:disabled, #voidButton:disabled > * {
+    -fx-opacity: 1.0;
+}
+#towerPanel{
+    -fx-padding: 0;
+    -fx-spacing: 0;
+}
+
+
+
+
+

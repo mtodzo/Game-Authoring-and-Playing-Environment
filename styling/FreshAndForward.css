@@ -1,0 +1,122 @@
+.root {
+	-fx-background-image: url("file:images/mermaid.jpg");
+	-fx-background-size: cover;
+}
+
+Text {
+	-fx-font-family: "Open Sans";
+	-fx-font-size: 14pt; 
+}
+
+TextField {
+	-fx-max-width: 200; 
+}
+
+.default-color0.chart-series-line {
+    -fx-stroke: black;
+    -fx-stroke-width: 2px; 
+}
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: black;
+    -fx-background-radius: 0;
+    	-fx-padding: 1px;
+}
+
+.axis {
+	-fx-tick-label-fill: white; 
+}
+
+.axis-label {
+	-fx-font-family: "Open Sans";
+	-fx-text-fill: white; 
+}
+
+.button:disabled, .button:disabled > * {
+	-fx-opacity: 0.5;
+}
+
+.combo-box .cell {
+	-fx-font-family: "Open Sans";
+	-fx-font-size: 12pt; 
+}
+
+#screenTitle {
+  -fx-alignment: center;
+  -fx-font-family: "Open Sans";
+  -fx-font-size: 36pt;
+}
+
+
+VBox {
+	-fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+}
+
+HBox {
+	-fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+}
+
+.button {
+	-fx-font-family: "Open Sans";
+	-fx-text-fill: white; 
+	-fx-min-width: 200;		
+	-fx-min-height: 50;
+	-fx-background-color: Transparent;
+}
+
+.button:hover{
+   	-fx-font-size: 21pt; 
+   	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+ComboBox {
+	-fx-font-family: "Open Sans";
+	-fx-background-color: #F0F8FF;
+	-fx-min-width: 200;
+	-fx-min-height: 50;
+}
+
+.combo-box:hover {
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+}
+
+#selector {
+	-fx-font-family: "Open Sans";
+	-fx-font-size: 14pt; 
+}
+
+#selector .Text {
+	-fx-font-family: "Open Sans";
+ 	 -fx-font-size: 14pt;
+}
+
+#selector .HBox, .VBox {
+	-fx-padding: 10;
+	-fx-spacing: 10;
+}
+
+#selector .ComboBox {
+	-fx-padding: 10;
+	-fx-spacing: 10;
+	-fx-background-color: #F0F8FF;
+}
+
+#towerHolders {
+	-fx-padding: 0;
+	-fx-spacing: 0;
+}
+
+#backButton, #applyButton {
+	-fx-background-color: #F0F8FF;
+	-fx-text-fill: black; 
+}
+
+.chart-title {
+	-fx-font-family: "Open Sans";
+	-fx-font-size: 18pt; 
+}

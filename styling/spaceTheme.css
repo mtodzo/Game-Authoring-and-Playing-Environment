@@ -1,0 +1,84 @@
+/* @Author Alexi Kontos */
+
+/**************************** Font Face ****************************/
+
+@font-face {
+    src: url("vcr-sd-mono.ttf");
+}
+
+/**************************** Basic Objects ****************************/
+
+Text {
+    -fx-font: 14pt "Helvetica";
+}
+
+.root {
+    -fx-background-color: black;
+}
+VBox, HBox {
+    -fx-background-image: url("../images/spaceBackground.png");
+    -fx-background-size: cover;
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-font: 14pt "Arial";
+    -fx-background-image: url("../images/steel.png");
+    -fx-background-size: cover;
+    -fx-border-width: 5;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: black;
+}
+
+.button:hover{
+    -fx-font: bold 12pt "Helvetica";
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:disabled, .button:disabled > * {
+    -fx-opacity: 0.7;
+}
+
+.label {
+    -fx-font-family: "VCR OSD Mono";
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-background-image: url("../images/steel.png");
+    -fx-background-size: cover;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+/**************************** Specific Stylings ****************************/
+
+#currencyButton {
+    -fx-font-family: "VCR OSD Mono";
+    -fx-font-size: 30;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+
+}
+#currencyButton{
+
+}
+#currencyButton:disabled, #currencyButton:disabled > * {
+    -fx-opacity: 1.0;
+}
+
+#swapWrap {
+
+}
+
+#voidButton{
+
+}
+#voidButton:disabled, #voidButton:disabled > * {
+    -fx-opacity: 1.0;
+}
+
+

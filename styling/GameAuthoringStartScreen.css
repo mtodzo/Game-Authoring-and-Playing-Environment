@@ -1,0 +1,160 @@
+.root {
+	-fx-background-image: url("file:images/poly.png");
+	-fx-background-size: cover;
+}
+
+Text {
+	-fx-font-family: "Quicksand";
+	-fx-font-size: 14pt; 
+}
+
+.default-color0.chart-series-line {
+    -fx-stroke: #488286;
+    -fx-stroke-width: 2px; 
+}
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: #488286;
+    -fx-background-radius: 0;
+    	-fx-padding: 1px;
+}
+
+.default-color1.chart-series-line {
+    -fx-stroke: #B7D5D4;
+    -fx-stroke-width: 2px; 
+}
+
+.default-color1.chart-line-symbol {
+    -fx-background-color: #B7D5D4;
+    -fx-background-radius: 0;
+    	-fx-padding: 1px;
+}
+
+.axis-label {
+	-fx-font-family: "Quicksand";
+}
+
+TextField {
+	-fx-max-width: 200; 
+}
+
+.button:disabled, .button:disabled > * {
+	-fx-opacity: 0.7;
+}
+
+.combo-box .cell {
+	-fx-font-family: "Quicksand";
+	-fx-font-size: 12pt; 
+}
+
+#screenTitle {
+  -fx-alignment: center;
+  -fx-font-family: "Quicksand";
+  -fx-font-size: 36pt;
+}
+
+
+VBox {
+    -fx-background-size: cover;
+    -fx-alignment: center;
+    -fx-border-color: transparent;
+	-fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+}
+
+HBox {
+    -fx-background-size: cover;
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+    -fx-border-color: transparent;
+	-fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+}
+
+.button {
+	-fx-font-family: "Quicksand";
+	-fx-background-color: #B7D5D4;
+}
+
+.button:hover{
+   	-fx-font-size: 21pt; 
+   	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+ComboBox {
+	-fx-font-family: "Quicksand";
+	-fx-background-color: #B7D5D4;
+	-fx-min-width: 200;
+	-fx-min-height: 50;
+}
+
+.combo-box:hover {
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+}
+
+#selector {
+	-fx-background-color: #488286;
+	-fx-font-family: "Quicksand";
+	-fx-font-size: 14pt; 
+}
+
+#selector .Text {
+	-fx-font-family: "Quicksand";
+ 	 -fx-font-size: 14pt;
+}
+
+#selector .HBox, .VBox {
+	-fx-padding: 10;
+	-fx-spacing: 10;
+}
+
+#selector .ComboBox {
+	-fx-padding: 10;
+	-fx-spacing: 10;
+	-fx-background-color: #B7D5D4;
+}
+
+#towerHolders {
+	-fx-padding: 0;
+	-fx-spacing: 0;
+}
+
+#backButton {
+	-fx-background-color: #488286; 
+}
+
+#applyButton {
+	-fx-background-color: #488286; 
+}
+
+.toggle-button {
+	-fx-font-family: "Quicksand";
+	-fx-min-width: 200;		
+	-fx-min-height: 50;
+	-fx-background-color: #B7D5D4;
+}
+
+.toggle-button:hover {
+	-fx-font-size: 21pt; 
+   	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.toggle-button:selected {
+   	-fx-background-color: #488286
+}
+
+.chart-title {
+	-fx-font-family: "Quicksand";
+	-fx-font-size: 18pt; 
+}
+#towerPanel{
+    -fx-padding: 0;
+    -fx-spacing: 0;
+}
+
+.scroll-bar:vertical .track-background,
+.scroll-bar:horizontal .track-background {
+}

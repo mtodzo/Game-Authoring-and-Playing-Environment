@@ -1,0 +1,59 @@
+VBox, HBox {
+	-fx-background-color: #D5D5D5;
+	-fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+}
+
+.button {
+		-fx-min-width: 200;
+		-fx-min-height: 50;
+		-fx-background-color: #96858F;
+		-fx-text-fill: #D5D5D5;
+}
+
+.button:hover{
+	  -fx-font: bold 18pt "Helvetica";
+	  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+ComboBox {
+	-fx-background-color: #6D7993;
+	-fx-text-fill: #D5D5D5;
+	-fx-min-width: 200;
+	-fx-min-height: 50;
+}
+
+ComboBox .cell {
+	-fx-background-color: #6D7993;
+	-fx-text-fill: #D5D5D5;
+}
+
+ComboBox .cell:hover {
+	-fx-background-color: #D5D5D5;
+	-fx-text-fill: #6D7993;
+}
+
+.combo-box:hover {
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#selector {
+	-fx-background-color: #6D7993;
+	-fx-font: 14pt "Helvetica";
+}
+
+#selector HBox, VBox {
+	-fx-padding: 10;
+	-fx-spacing: 10;
+}
+
+#selector ComboBox {
+	-fx-padding: 10;
+	-fx-spacing: 10;
+}
+
+#towerHolders {
+	-fx-padding: 0;
+	-fx-spacing: 0;
+}
