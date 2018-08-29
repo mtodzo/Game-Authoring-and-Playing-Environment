@@ -1,5 +1,5 @@
 # Voogasalad ReadMe
-**NOTE:** I could not upload all relevant files to my personal github, but 
+**NOTE:** I could not upload all relevant files to my personal github, but the full project can be seen here: https://coursework.cs.duke.edu/CompSci308_2018Spring/voogasalad_iftruereturntrue
 ## Project Basics
 - **Demo Games** :  https://www.youtube.com/watch?v=9eHQSR8RCBg
 - **Team Members** : Ben Hodgson, Alexi Kontos, Andrew Arnold, Ben Auriemma, Brendan Cheng, Erik Riis, Katie Van Dyk, Miles Todzo, Ryan Pond, Sarah Bland, and Susie Choi
